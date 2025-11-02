@@ -34,12 +34,10 @@ public class Animal{
         return tipo;
     }
 
-    public ArrayList<Procedimento> getProcedimentos() {
-        return procedimentos;
-    }
+    //public ArrayList<Procedimento> getProcedimentos() { return procedimentos; }
 
     @Override
     public String toString(){
-        return "petshop.Animal: " + this.nome + " | " + this.raca + " | " + this.tipo;
+        return "Animal: " + this.nome + " | " + this.raca + " | " + this.tipo;
     }
 }

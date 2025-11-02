@@ -9,11 +9,11 @@ public class Banho extends Procedimento {
     }
 
     public void imprimirProcedimento() {
-        System.out.println("petshop.Procedimento: petshop.Banho " + nomeFuncionario + " | " + shampoo);
+        System.out.println("    Procedimento: Banho " + nomeFuncionario + " | " + shampoo);
     }
 
     @Override
     public String toString() {
-        return "petshop.Procedimento: petshop.Banho " + nomeFuncionario + " | " + shampoo;
+        return "Procedimento: Banho " + nomeFuncionario + " | " + shampoo;
     }
 }

@@ -5,6 +5,24 @@ import petshop.*;
 import java.util.ArrayList;
 
 public class Teste {
+
+    public static void imprimirDescricaoProcedimento(ArrayList<Cliente> clientes){
+
+        for (Cliente cliente : clientes){
+            System.out.println();
+            System.out.println(cliente);
+
+            for ( Animal a : cliente.returnAnimais()){
+                System.out.println(a);
+
+                for (Procedimento procedimento : a.retornProcedimento()) {
+                    procedimento.imprimirProcedimento();
+                }
+            }
+        }
+    }
+
+
     public static void main(String[] args) {
 
         ArrayList<Cliente> clientes = new ArrayList<Cliente>();
@@ -73,5 +91,7 @@ public class Teste {
         a5.addProcedimento(b4);
         a5.addProcedimento(v4);
         a5.addProcedimento(t2);
+
+        imprimirDescricaoProcedimento(clientes);
     }
 }

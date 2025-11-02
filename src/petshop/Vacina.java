@@ -11,13 +11,13 @@ public class Vacina extends Procedimento {
     }
 
     public void imprimirProcedimento() {
-        System.out.println("petshop.Procedimento: petshop.Vacina  | " + nomeFuncionario +
+        System.out.println("    Procedimento: Vacina  | " + nomeFuncionario +
                 " | " + nomeVacina + " | " + validadeVacina);
     }
 
     @Override
     public String toString() {
-        return "petshop.Procedimento: petshop.Vacina  | " + nomeFuncionario +
+        return "Procedimento: Vacina  | " + nomeFuncionario +
                 " | " + nomeVacina + " | " + validadeVacina;
     }
 }

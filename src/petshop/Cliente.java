@@ -18,13 +18,13 @@ public class Cliente {
         animais.add(animal);
     }
 
-    public Animal retornaAnimal(String nome){
+    public Animal buscaAnimal(String nome){
 
         for (int i = 0; i < animais.size(); i++) {
             Animal a = animais.get(i);
 
             if (a.getNome().equals(nome)){
-                return a;
+                return  a;
             }
         }
         return null;
@@ -49,6 +49,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "petshop.Cliente: João Silva | " + endereco + " | " + telefone;
+        return "Cliente: João Silva | " + endereco + " | " + telefone;
     }
 }

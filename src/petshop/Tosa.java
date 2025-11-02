@@ -9,11 +9,11 @@ public class Tosa extends Procedimento {
     }
 
     public void imprimirProcedimento() {
-        System.out.println("petshop.Procedimento: petshop.Tosa " + nomeFuncionario + " | " + tipoTosa);
+        System.out.println("    Procedimento: Tosa " + nomeFuncionario + " | " + tipoTosa);
     }
 
     @Override
     public String toString() {
-        return "petshop.Procedimento: petshop.Tosa " + nomeFuncionario + " | " + tipoTosa;
+        return "Procedimento: Tosa " + nomeFuncionario + " | " + tipoTosa;
     }
 }

@@ -11,7 +11,7 @@ public class Main {
         a1.addProcedimento(v1);
         c1.addAnimal(a1);
 
-        var r2 = c1.retornaAnimal("Bidu");
+        var r2 = c1.buscaAnimal("Bidu");
         System.out.println(r2);
 
         var r1 = a1.retornProcedimento();

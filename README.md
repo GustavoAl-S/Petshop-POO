@@ -1,4 +1,4 @@
-Exercício de POO para um processo de Petshop. Reforçando os conceitos aprendidos como Herança, Encapsulamento e Sobrescrita de métodos.
+Exercício de POO para um processo de Petshop. Reforçando os conceitos aprendidos como Herança, Encapsulamento e Polimorfismo
 
 O exercicio tinha 3 partes, fiz um commit para cada parte, mas não me restringi em apenas 3 porque acabei fazendo mais commits para poder criar o Readme.
 

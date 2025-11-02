@@ -1,4 +1,6 @@
-public class Banho extends  Procedimento{
+package petshop;
+
+public class Banho extends Procedimento {
     private String shampoo;
 
     public Banho(String nomeFuncionario, String shampoo){
@@ -7,11 +9,11 @@ public class Banho extends  Procedimento{
     }
 
     public void imprimirProcedimento() {
-        System.out.println("Procedimento: Banho " + nomeFuncionario + " | " + shampoo);
+        System.out.println("petshop.Procedimento: petshop.Banho " + nomeFuncionario + " | " + shampoo);
     }
 
     @Override
     public String toString() {
-        return "Procedimento: Banho " + nomeFuncionario + " | " + shampoo;
+        return "petshop.Procedimento: petshop.Banho " + nomeFuncionario + " | " + shampoo;
     }
 }

@@ -1,3 +1,5 @@
+package petshop;
+
 import java.util.ArrayList;
 
 public class Cliente {
@@ -47,6 +49,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente: João Silva | " + endereco + " | " + telefone;
+        return "petshop.Cliente: João Silva | " + endereco + " | " + telefone;
     }
 }

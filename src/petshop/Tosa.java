@@ -1,4 +1,6 @@
-public class Tosa extends Procedimento{
+package petshop;
+
+public class Tosa extends Procedimento {
     private String tipoTosa;
 
     public Tosa(String nomeFuncionario, String tipoTosa){
@@ -7,11 +9,11 @@ public class Tosa extends Procedimento{
     }
 
     public void imprimirProcedimento() {
-        System.out.println("Procedimento: Tosa " + nomeFuncionario + " | " + tipoTosa);
+        System.out.println("petshop.Procedimento: petshop.Tosa " + nomeFuncionario + " | " + tipoTosa);
     }
 
     @Override
     public String toString() {
-        return "Procedimento: Tosa " + nomeFuncionario + " | " + tipoTosa;
+        return "petshop.Procedimento: petshop.Tosa " + nomeFuncionario + " | " + tipoTosa;
     }
 }

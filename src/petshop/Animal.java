@@ -1,3 +1,5 @@
+package petshop;
+
 import java.util.ArrayList;
 
 public class Animal{
@@ -38,6 +40,6 @@ public class Animal{
 
     @Override
     public String toString(){
-        return "Animal: " + this.nome + " | " + this.raca + " | " + this.tipo;
+        return "petshop.Animal: " + this.nome + " | " + this.raca + " | " + this.tipo;
     }
 }

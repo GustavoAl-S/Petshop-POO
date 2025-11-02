@@ -1,3 +1,5 @@
+package petshop;
+
 public class Procedimento {
     protected String nomeFuncionario;
 

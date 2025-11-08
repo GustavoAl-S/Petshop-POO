@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Teste {
 
-    public static void imprimirDescricaoProcedimento(ArrayList<Cliente> clientes){
+    public static void imprimirClientes(ArrayList<Cliente> clientes){
 
         for (Cliente cliente : clientes){
             System.out.println();
@@ -92,6 +92,6 @@ public class Teste {
         a5.addProcedimento(v4);
         a5.addProcedimento(t2);
 
-        imprimirDescricaoProcedimento(clientes);
+        imprimirClientes(clientes);
     }
 }

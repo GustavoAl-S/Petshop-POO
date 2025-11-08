@@ -49,6 +49,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente: João Silva | " + endereco + " | " + telefone;
+        return "Cliente: " + nome + " | " + endereco + " | " + telefone;
     }
 }

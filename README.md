@@ -15,6 +15,6 @@ Parte 3:
 
 
 Resultado final: 
-<img width="1338" height="915" alt="Image" src="https://github.com/user-attachments/assets/5c7d7588-f329-4603-a711-acd83d91cde2" />
+<img width="649" height="514" alt="Image" src="https://github.com/user-attachments/assets/0b7e5cd4-19b9-43c7-8279-37c7ccdd6ccc" />
 
 Feito com 💻 e ☕ por Gustavo Alves
